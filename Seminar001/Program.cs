@@ -7,4 +7,5 @@
 // -7 -> 49
 int number  = Convert.ToInt32(Console.ReadLine());
 int square = number * number;
-Console.WriteLine(square);
+Console.WriteLine(number + " - > " + square);
+Console.WriteLine($"{number} - > {square}");

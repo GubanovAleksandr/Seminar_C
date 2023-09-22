@@ -6,5 +6,5 @@
 // -3 -> 9
 // -7 -> 49
 int number  = Convert.ToInt32(Console.ReadLine());
-number = number * number;
-Console.WriteLine(number);
+int square = number * number;
+Console.WriteLine(square);
